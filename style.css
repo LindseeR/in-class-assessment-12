@@ -16,7 +16,7 @@ header {
   justify-content: flex-end; 
 }
 
-nav { 
+nav a { 
   justify-content: space-between;
   color: #ff5c89;
 }
