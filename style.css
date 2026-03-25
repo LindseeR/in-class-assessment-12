@@ -15,18 +15,18 @@ header {
   flex-direction: row; 
   justify-content: flex-end; 
   align-items: center;
-  padding: 0 50px;
+  padding: 20px 50px;
 }
 
-nav a { 
-  justify-content: space-evenly;
-  color: #402060;
+nav a{ 
+  color: #ff5c89;;
   text-decoration: none; 
   font-weight: bold; 
+  padding: 5px; 
 }
 
 nav a:hover {
-  color: #ff5c89;
+  color: #402060;
   text-decoration: underline;
 }
 
@@ -47,32 +47,32 @@ main {
   text-transform: uppercase; 
 }
 
-.into h2 { 
-  font-size: 20px;
+.intro h2 {
+  font-size: 20px; 
   text-transform: lowercase;
-} 
+}
+
 
 .meet-team { 
-  height: 500px;
-  width: 100%;
   display: flex; 
-  font-size: 12px; 
-  text-align: center; 
-  padding: 20px 0px ;
+  flex-direction: column;
+  padding: 30px 20px 20px 0px; 
 } 
 
 .members { 
   display: flex;
-  height: 300px;
+  height: 400px;
   font-size: 16px;
+  font-weight: bold;
+  text-align: center; 
   background-size: cover;
   background-position: center;
-  padding: 30px;
+  padding: 0px;
 }
 
 .memone, .memtwo, .memthree, .memfour { 
-  width: 25%;
-  height: 100%;
+  width: 75%;
+  height: 400px;
   background-size: cover;
   background-position: center;
 }
@@ -94,3 +94,11 @@ main {
    background-image: url("https://i.pinimg.com/736x/af/30/e6/af30e61c1e4303d3923d8d6cd3b97819.jpg");
  }
 
+.our-work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-work h2 {
+  text-align: right;
+}
