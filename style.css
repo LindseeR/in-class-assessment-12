@@ -16,6 +16,11 @@ header {
   justify-content: flex-end; 
 }
 
+nav { 
+  justify-content: space-between;
+  color: #ff5c89;
+}
+
 .intro {
   display: flex; 
   flex-direction: column;
