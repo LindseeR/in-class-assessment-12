@@ -25,8 +25,9 @@ nav a {
   font-weight: bold; 
 }
 
-nav a: hover {
+nav a:hover {
   color: #ff5c89;
+  text-decoration: underline;
 }
 
 main {
@@ -52,29 +53,36 @@ main {
 } 
 
 .meet-team { 
+  height: 500px;
+  width: 100%;
   display: flex; 
-  font-size: 14px; 
+  font-size: 12px; 
   text-align: center; 
+  padding: 20px 0px ;
 } 
 
-.members, .image { 
+.members { 
+  font-size: 16px;
   background-size: cover;
   background-position: center;
+  display-flex: 20px;
+  padding: 30px;
 }
 
-.mem one { 
+
+.memone { 
   background-image: url("https://i.pinimg.com/736x/0f/5c/4f/0f5c4fa7dc7db0c43fe3b8446e15bf22.jpg");
 } 
 
-.mem two { 
+.memtwo { 
   background-image: url("https://i.pinimg.com/736x/fc/af/6f/fcaf6f03e93790278fa6e238f3d23a96.jpg");
 } 
 
-.mem three { 
+.memthree { 
   background-image: url("https://i.pinimg.com/736x/20/15/ec/2015ec15371f3e75e9e021f915c266cf.jpg");
 } 
 
- .mem four { 
+ .memfour { 
    background-image: url("https://i.pinimg.com/736x/af/30/e6/af30e61c1e4303d3923d8d6cd3b97819.jpg");
  }
 
