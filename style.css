@@ -19,7 +19,7 @@ header {
 }
 
 nav a{ 
-  color: #ff5c89;;
+  color: #ff5c89;
   text-decoration: none; 
   font-weight: bold; 
   padding: 5px; 
@@ -54,6 +54,7 @@ main {
 
 
 .meet-team { 
+   text-transform: lowercase;
   display: flex; 
   flex-direction: column;
   padding: 30px 20px 20px 0px; 
@@ -68,10 +69,11 @@ main {
   background-size: cover;
   background-position: center;
   padding: 0px;
+  width: 75vw;
 }
 
 .memone, .memtwo, .memthree, .memfour { 
-  width: 75%;
+  width: 75vw;
   height: 400px;
   background-size: cover;
   background-position: center;
@@ -94,25 +96,30 @@ main {
    background-image: url("https://i.pinimg.com/736x/af/30/e6/af30e61c1e4303d3923d8d6cd3b97819.jpg");
  }
 
-.our-work {
+.work {
+  width: 75vw;
   display: flex; 
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .our-work h2 {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+   text-transform: lowercase;
 }
 
 .container p {
   font-size: 40px; 
+  text-transform: lowercase;
   font-style: italic;
   color: #ffdbe5;
   position: relative;
-  top: -45px;
+  top: -40px;
 }
 
 .imgone, .imgtwo, .imgthree {
-  width: 200px;
+  width: 300px;
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -130,3 +137,29 @@ main {
   background-image: url("https://i.pinimg.com/736x/d8/cd/c0/d8cdc0d2cf27614b6230587e4ee36ccb.jpg")
 }
 
+footer {
+  width:100vw;
+  height: 100px;
+  background-color: #ff5c89;
+  color: #ffdbe5;
+}
+
+footer a {
+  color: #ffdbe5;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px
+}
+
+footer a:hover {
+  color: #402060;
+  text-decoration: underline;
+}
+
+.footer-links {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
