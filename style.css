@@ -1,24 +1,36 @@
 *{
-/* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0; 
   box-sizing: border-box;
 }
 
 html {
   background-color: #ffdbe5;
   color: #aa7f6f;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 header { 
   display: flex; 
   flex-direction: row; 
   justify-content: flex-end; 
+  align-items: center;
+  padding: 0 50px;
 }
 
 nav a { 
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: #ff5c89;
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+nav a: hover {
+  color: #e7a9ff;
+}
+
+main {
+  width: 75vw;
 }
 
 .intro {
@@ -27,9 +39,12 @@ nav a {
   align-items: flex-start; 
 }
   
-h1 {
+.intro h1 {
   font-size: 30px;
   color: #332222;
+  text-transform: uppercase; 
 }
 
+ 
+  
 
