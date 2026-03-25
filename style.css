@@ -95,28 +95,35 @@ main {
  }
 
 .our-work {
-  display: flex;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
 }
 
 .our-work h2 {
   text-align: right;
 }
 
-.container {
-  width: 33%;
+.container p {
+  font-size: 16px; 
+  font-style: italic;
+  color: #ffdbe5;
+  position: relative;
+  top: -45px;
+  height: 15%;
 }
 
 .imgone, .imgtwo, .imgthree {
-  height: 300px;
-  width: 100%; 
+  display: flex;
+  width: 25%;
+  height: 200px;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
 .imgone {
   background-image: url("https://i.pinimg.com/736x/d7/54/ea/d754ea7dc92f926b22ff625eb107a0ca.jpg")
 }
-
 
 .imgtwo {
   background-image: url("https://i.pinimg.com/736x/bb/22/48/bb224826faf0311417a5e8a8917ef4a1.jpg")
