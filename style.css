@@ -96,8 +96,7 @@ main {
 
 .our-work {
   display: flex; 
-  justify-content: space-between; 
-  align-items: flex-start; 
+  flex-direction: row;
 }
 
 .our-work h2 {
@@ -105,17 +104,15 @@ main {
 }
 
 .container p {
-  font-size: 16px; 
+  font-size: 40px; 
   font-style: italic;
   color: #ffdbe5;
   position: relative;
   top: -45px;
-  height: 15%;
 }
 
 .imgone, .imgtwo, .imgthree {
-  display: flex;
-  width: 25%;
+  width: 200px;
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -130,6 +127,6 @@ main {
 }
 
 .imgthree {
-  background-image: url("https://i.pinimg.com/1200x/93/5a/d2/935ad23dc560d5401a2d03fa6f5dfe12.jpg")
+  background-image: url("https://i.pinimg.com/736x/d8/cd/c0/d8cdc0d2cf27614b6230587e4ee36ccb.jpg")
 }
 
