@@ -13,8 +13,14 @@ html {
 header { 
   display: flex; 
   flex-direction: row; 
-  justify-content: flex-end, space-between; 
+  justify-content: flex-end; 
 }
 
-
+.intro {
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start; 
+  color: #644c48;
+}
+  
 
