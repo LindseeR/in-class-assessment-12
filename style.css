@@ -54,7 +54,7 @@ main {
 
 
 .meet-team { 
-   text-transform: lowercase;
+  text-transform: lowercase;
   display: flex; 
   flex-direction: column;
   padding: 30px 20px 20px 0px; 
@@ -138,28 +138,57 @@ main {
 }
 
 footer {
-  width:100vw;
-  height: 100px;
+  width: 100vw;
+  height: 500px;
   background-color: #ff5c89;
-  color: #ffdbe5;
+  color:  #ffdbe5; 
 }
 
 footer a {
-  color: #ffdbe5;
+  color:  #ffdbe5;
   text-decoration: none;
   display: inline-block;
-  height: 40px
+  padding-top: 40px; 
 }
 
 footer a:hover {
-  color: #402060;
+  color:  #402060;
   text-decoration: underline;
 }
 
+.footercontent {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  align-items: flex-start; 
+  padding: 75px;
+}
+
 .footer-links {
-  width: 75vw;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  font-weight: bold; 
+}
+
+.footer-copyright {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   justify-content: space-between;
-  flex-wrap: wrap;
+}
+
+.footer-button {
+  border-radius: 1rem;
+  text-align: center;
+  padding: 3px 5px; 
+}
+
+.copyright-info {
+  font-size: 16px; 
+  text-align: right; 
+  color:  #ffdbe5;
 }
